@@ -129,10 +129,10 @@ class ViewController: UIViewController {
                 print("you have pressed the Ok button")
             })
             let ignoreAction = UIAlertAction(title: "Ignore", style: .default, handler: {(action : UIAlertAction) in
-                print("you have pressed the ignore button")
+                print("you have pressed the ignore button.")
             })
             let deleteAction = UIAlertAction(title: "Delete", style: .destructive, handler: {(action : UIAlertAction) in
-                print("you have pressed the delete button")
+                print("you have pressed the delete button.")
             })
             alertController.addAction(ignoreAction)
             alertController.addAction(okAction)
