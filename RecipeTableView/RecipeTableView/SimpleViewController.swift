@@ -14,7 +14,6 @@ class SimpleViewController: UIViewController {
     var rName : String?
     override func viewDidLoad() {
         super.viewDidLoad()
-
         self.recipeName.text = rName!
     }
 
