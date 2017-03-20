@@ -121,6 +121,17 @@
                     <view key="view" contentMode="scaleToFill" id="iDp-tP-1Id">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dxM-SW-Pwc">
+                                <rect key="frame" x="60" y="508" width="200" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Capture"/>
+                                <connections>
+                                    <action selector="captureVideo:" destination="Ftu-TN-jwX" eventType="touchUpInside" id="QsK-VX-Cje"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="JTf-e5-Q29"/>

@@ -14,6 +14,8 @@
 		182303DC1E7FD42B000E2AE2 /* CameraAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182303DB1E7FD42B000E2AE2 /* CameraAppTests.swift */; };
 		182303E71E7FDA01000E2AE2 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182303E61E7FDA01000E2AE2 /* PhotoViewController.swift */; };
 		182303E91E7FDA3B000E2AE2 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182303E81E7FDA3B000E2AE2 /* VideoViewController.swift */; };
+		182303EC1E801E3D000E2AE2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182303EB1E801E3D000E2AE2 /* AVFoundation.framework */; };
+		182303EE1E801E47000E2AE2 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182303ED1E801E47000E2AE2 /* AVKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		182303DD1E7FD42B000E2AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		182303E61E7FDA01000E2AE2 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		182303E81E7FDA3B000E2AE2 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		182303EB1E801E3D000E2AE2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		182303ED1E801E47000E2AE2 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182303EE1E801E47000E2AE2 /* AVKit.framework in Frameworks */,
+				182303EC1E801E3D000E2AE2 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +70,7 @@
 				182303C51E7FD42A000E2AE2 /* CameraApp */,
 				182303DA1E7FD42B000E2AE2 /* CameraAppTests */,
 				182303C41E7FD42A000E2AE2 /* Products */,
+				182303EA1E801E3D000E2AE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +104,15 @@
 				182303DD1E7FD42B000E2AE2 /* Info.plist */,
 			);
 			path = CameraAppTests;
+			sourceTree = "<group>";
+		};
+		182303EA1E801E3D000E2AE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				182303ED1E801E47000E2AE2 /* AVKit.framework */,
+				182303EB1E801E3D000E2AE2 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
