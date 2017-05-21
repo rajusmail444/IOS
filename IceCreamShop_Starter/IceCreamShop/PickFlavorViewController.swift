@@ -54,7 +54,7 @@ public class PickFlavorViewController: UIViewController {
         
         // In order to break a strong reference cycle, you use a weak reference to self in the response completion block. Once the block executes, you immediately get a strong reference to self so you can set properties on it later.
         guard let strongSelf = self else { return }
-        strongSelf.hideLoadingHUD()
+        strongSelf.hideLoadingHUD() 
         
         // You next verify the response.result indicates it was successful, and the response.result.value is an array of dictionaries.
         guard response.result.isSuccess,
